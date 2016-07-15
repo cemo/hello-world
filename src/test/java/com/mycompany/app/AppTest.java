@@ -1,5 +1,7 @@
 package com.mycompany.app;
 
+import java.util.Map;
+import java.util.Properties;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
@@ -7,7 +9,7 @@ import junit.framework.TestSuite;
 /**
  * Unit test for simple App.
  */
-public class AppTest 
+public class AppTest
     extends TestCase
 {
     /**
@@ -33,6 +35,19 @@ public class AppTest
      */
     public void testApp()
     {
+
+        Properties properties = System.getProperties();
+
+        for (Map.Entry<Object, Object> entry : properties.entrySet()) {
+            System.out.println(entry.getKey().toString() + " " + entry.getValue().toString();
+        }
+
+        Map<String, String> env = System.getenv();
+
+        for (Map.Entry<String , String> entry : env.entrySet()) {
+            System.out.println(entry.getKey() + " " + entry.getValue());
+        }
+
         assertTrue( true );
     }
 }
