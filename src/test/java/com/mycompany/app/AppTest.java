@@ -39,7 +39,7 @@ public class AppTest
         Properties properties = System.getProperties();
 
         for (Map.Entry<Object, Object> entry : properties.entrySet()) {
-            System.out.println(entry.getKey().toString() + " " + entry.getValue().toString();
+            System.out.println(entry.getKey().toString() + " " + entry.getValue().toString());
         }
 
         Map<String, String> env = System.getenv();
