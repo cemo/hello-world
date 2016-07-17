@@ -15,6 +15,24 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <repositories>
+    <repository>
+      <id>cemo-milestones</id>
+      <name>Cemo Milestones</name>
+      <url>http://nexus-startupheroes.rhcloud.com/content/groups/public</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>cemo-snapshots</id>
+      <name>Cemo Snapshots</name>
+      <url>http://nexus-startupheroes.rhcloud.com/content/groups/public</url>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
   <build>
     <plugins>
       <plugin>
