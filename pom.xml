@@ -15,6 +15,24 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <pluginRepositories>
+    <pluginRepository>
+      <id>cemo-plugin-milestones</id>
+      <name>Cemo Milestones</name>
+      <url>http://nexus-startupheroes.rhcloud.com/content/groups/public</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </pluginRepository>
+    <pluginRepository>
+      <id>cemo-plugin-snapshots</id>
+      <name>Cemo Snapshots</name>
+      <url>http://nexus-startupheroes.rhcloud.com/content/groups/public</url>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </pluginRepository>
+  </pluginRepositories>
   <repositories>
     <repository>
       <id>cemo-milestones</id>
@@ -28,6 +46,38 @@
       <id>cemo-snapshots</id>
       <name>Cemo Snapshots</name>
       <url>http://nexus-startupheroes.rhcloud.com/content/groups/public</url>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+
+    <repository>
+      <id>spring-ext</id>
+      <url>http://repo.spring.io/ext-release-local/</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>spring-milestones</id>
+      <name>Spring Milestones</name>
+      <url>http://repo.spring.io/milestone</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>spring-snapshots</id>
+      <name>Spring Snapshots</name>
+      <url>http://repo.spring.io/snapshot</url>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>libs-release-remote</id>
+      <name>Spring Snapshots</name>
+      <url>http://repo.spring.io/libs-release-remote</url>
       <snapshots>
         <enabled>true</enabled>
       </snapshots>
