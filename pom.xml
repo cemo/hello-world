@@ -22,7 +22,7 @@
         <artifactId>utqg-maven-plugin</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <configuration>
-          <apiUrl>http://localhost:8080/</apiUrl>
+          <apiUrl>http://ut-automated-quality-gate-stage.devfactory.com/</apiUrl>
           <projectName>test-it-utqg</projectName>
           <testsDirectory>
             <testDirectory>.</testDirectory>
