@@ -14,6 +14,8 @@ public class App2Test
 
     @Test
     public void test_method_2() {
-        System.out.println("@Test - test_method_2");
+        if (1==1){
+            System.out.println("@Test - test_method_2");
+        }
     }
 }
