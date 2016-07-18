@@ -2,15 +2,15 @@ package com.mycompany.app;
 
 import java.util.Map;
 import java.util.Properties;
-import junit.framework.TestCase;
 import org.junit.Test;
+
+import static org.junit.Assert.assertTrue;
 
 /**
  * Unit test for simple App.
  */
 
 public class AppTest
-    extends TestCase
 {
     /**
      * Rigourous Test :-)
