@@ -91,7 +91,7 @@
         <version>1.0.0-SNAPSHOT</version>
         <configuration>
           <apiUrl>http://ut-automated-quality-gate-stage.devfactory.com/</apiUrl>
-          <projectName>test-it-utqg</projectName>
+          <projectName>DEMO</projectName>
           <testsDirectory>
             <testDirectory>.</testDirectory>
           </testsDirectory>
