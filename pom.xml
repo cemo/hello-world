@@ -6,7 +6,7 @@
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>my-app-cemo-3</name>
- 
+
  <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -91,9 +91,6 @@
         <version>1.0.0-SNAPSHOT</version>
         <configuration>
           <apiUrl>http://ut-automated-quality-gate-stage.devfactory.com/</apiUrl>
-          <testsDirectory>
-            <testDirectory>.</testDirectory>
-          </testsDirectory>
         </configuration>
         <executions>
           <execution>
