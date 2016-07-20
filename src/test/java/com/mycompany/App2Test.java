@@ -18,4 +18,16 @@ public class App2Test
             System.out.println("@Test - test_method_2");
         }
     }
+    /**
+     * Rigourous Test :-)
+     */
+
+    @Test
+    public void test_method_3() {
+        String name = getName();
+    }
+
+    public String getName() {
+        return "Test";
+    }
 }
